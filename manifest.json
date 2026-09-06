@@ -1,0 +1,59 @@
+{
+  "manifest_version": 2,
+  "name": "Catthode",
+  "version": "0.1.0",
+  "description": "A warm OLED theme for Firefox with amber, clay, and pale blue accents.",
+  "author": "Catthode",
+  "homepage_url": "https://cattho.de/",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "catthode@cattho.de",
+      "strict_min_version": "128.0"
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame": "#000000",
+      "frame_inactive": "#080808",
+      "tab_background_text": "#b3b3b3",
+      "tab_selected": "#141414",
+      "tab_text": "#ffffff",
+      "tab_line": "#ff9e3b",
+      "tab_loading": "#9cd9e6",
+      "toolbar": "#000000",
+      "toolbar_text": "#ffffff",
+      "bookmark_text": "#ffffff",
+      "toolbar_field": "#141414",
+      "toolbar_field_text": "#ffffff",
+      "toolbar_field_border": "#2d2d2d",
+      "toolbar_field_border_focus": "#ffb86c",
+      "toolbar_field_focus": "#141414",
+      "toolbar_field_highlight": "#f08d49",
+      "toolbar_field_highlight_text": "#000000",
+      "toolbar_top_separator": "#000000",
+      "toolbar_bottom_separator": "#2d2d2d",
+      "toolbar_vertical_separator": "#2d2d2d",
+      "button_background_hover": "#2d2d2d",
+      "button_background_active": "#636363",
+      "icons": "#fae2c8",
+      "icons_attention": "#ff9e3b",
+      "popup": "#141414",
+      "popup_text": "#ffffff",
+      "popup_border": "#636363",
+      "popup_highlight": "#2d2d2d",
+      "popup_highlight_text": "#fae2c8",
+      "sidebar": "#141414",
+      "sidebar_text": "#ffffff",
+      "sidebar_border": "#2d2d2d",
+      "sidebar_highlight": "#f08d49",
+      "sidebar_highlight_text": "#000000",
+      "ntp_background": "#000000",
+      "ntp_card_background": "#141414",
+      "ntp_text": "#ffffff"
+    },
+    "properties": {
+      "color_scheme": "dark",
+      "content_color_scheme": "dark"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+name: Validate and package theme
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  web-ext:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Lint with Mozilla web-ext
+        run: npx --yes web-ext@latest lint --warnings-as-errors
+      - name: Build unsigned store package
+        run: npx --yes web-ext@latest build --overwrite-dest
+      - uses: actions/upload-artifact@v4
+        with:
+          name: catthode-firefox
+          path: web-ext-artifacts/*.zip
