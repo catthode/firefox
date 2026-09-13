@@ -4,7 +4,7 @@
 
 A signed-ready static WebExtension theme for Firefox, including horizontal and vertical tabs, toolbar fields, popups, sidebars, and the new-tab page.
 
-![Catthode Firefox preview](preview/catthode-firefox.svg)
+![Catthode running in Firefox](preview/catthode-firefox-real.jpg)
 
 ## Local installation
 
@@ -22,7 +22,7 @@ The manifest includes the stable ID `catthode@cattho.de` and AMO-ready metadata.
 
 ## Validation
 
-CI runs Mozilla's current `web-ext lint --warnings-as-errors` and `web-ext build`. No local Firefox installation is needed to produce the release package.
+CI runs Mozilla's current `web-ext lint --warnings-as-errors` and `web-ext build`. The build excludes listing collateral so the upload ZIP contains only the theme manifest and license. No local Firefox installation is needed to produce the release package.
 
 ## License
 

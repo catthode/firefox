@@ -19,7 +19,9 @@ jobs:
       - name: Lint with Mozilla web-ext
         run: npx --yes web-ext@latest lint --warnings-as-errors
       - name: Build unsigned store package
-        run: npx --yes web-ext@latest build --overwrite-dest
+        run: >-
+          npx --yes web-ext@latest build --overwrite-dest
+          --ignore-files preview "preview/**" README.md AMO_SUBMISSION_DRAFT.md
       - uses: actions/upload-artifact@v4
         with:
           name: catthode-firefox
