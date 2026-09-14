@@ -1,6 +1,6 @@
 # Mozilla Add-ons submission record
 
-Submitted to Mozilla Add-ons on 2026-09-12. Version `0.1.0` is approved; the detailed product-page description remains to be saved.
+Submitted to Mozilla Add-ons on 2026-09-12. Version `0.1.0` is approved, and the detailed product-page description was saved on 2026-09-13.
 
 - **Distribution:** On addons.mozilla.org
 - **Name:** Catthode
